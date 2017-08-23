@@ -1,0 +1,7 @@
+{
+  "mongoUrl": "mongodb://localhost/twitch-analytics",
+
+  "test": {
+    "mongoUrl": "mongodb://localhost/twitch-analytics-test"
+  }
+}
