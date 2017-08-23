@@ -16,8 +16,8 @@ var chatApi        = require('./chatApi');
 var chatControllerApi = require('./ChatControllerApi');
 
 // Define our constants, you will change these with your own
-const TWITCH_CLIENT_ID = 'izy9kfg6ds834ny3vj5rnsnolh0ttv';
-const TWITCH_SECRET    = 'ufz0nhyxfdnstspext1p3ujo4zlq83';
+const TWITCH_CLIENT_ID = '<Client-ID>';
+const TWITCH_SECRET    = '<Client-Secret>';
 const SESSION_SECRET   = 'topsecret';
 const CALLBACK_URL     = 'http://localhost:3000/auth/twitch/callback';  // You can run locally with - http://localhost:3000/auth/twitch/callback
 

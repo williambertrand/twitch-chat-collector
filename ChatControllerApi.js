@@ -31,8 +31,8 @@ var createConnection = function(channelName) {
           reconnect: true
       },
       identity: {
-          username: "wmbertrand",
-          password: "oauth:pjk7wiip624zr9sstx1h1w4nn6jbga"
+          username: "<username>",
+          password: "oauth:<password>"
       },
       channels: [chanelTag]
   };
