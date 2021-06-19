@@ -5,6 +5,10 @@ An express app that handles downloading interactions (chat and subscriptions) on
 
 Run `npm install` and `npm start` to start the express server
 
+
+### Info
+Pretty much everything interesting is handled in the `chatAPI` file. In it, the service connects to all `channels` and any time a `chat` event occurs, it creates an interaction.
+
 ### Controllers
 - **Chanel Controller**: Hanldes creation of `channels`. Once saved to the DB, a channel will be connected to daily to collect all the chat interactions and stats.
 - **Interaction controller**: An interaction is basically a message in the Twitch Chat
